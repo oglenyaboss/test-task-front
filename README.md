@@ -14,6 +14,7 @@ docker compose up --build
 - API: http://localhost:8080
 - Swagger UI: http://localhost:8080/swagger
 - OpenAPI: http://localhost:8080/openapi.yaml
+- Сидовый пользователь: `test@example.com / Password123!`
 
 В сид-данных создаётся учётная запись `test@example.com / Password123!`. При первом запуске автоматически применяются миграции и загружаются 120 товаров.
 
